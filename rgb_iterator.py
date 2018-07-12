@@ -30,5 +30,5 @@ class RGBIterator():
         self.__do_index_task()
         return self.__colors[:]
 
-iterator = RGBIterator([255, 1, 0])
+iterator = RGBIterator([255, 0, 0])
 print(iterator.next()) #[255, 1, 0]
